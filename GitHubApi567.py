@@ -1,4 +1,11 @@
 #!/bin/python3
+"""
+This is a class project for 2024S SSW 567-WS, Software Testing, Quality Assurance and Maintenance
+Group members:
+Estevan Stowe
+Jacob Gelman-Funk
+Tawnya Shannon
+"""
 
 import requests
 
