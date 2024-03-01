@@ -13,7 +13,7 @@ def gitHub_parser(username):
     repos = get_repos(username)
     for repo in repos:
         commits = get_commits(username, repo['name'])
-        print(f"Repo: {repo['name']} Number of commits: {len(commits)}")
+        print(f'Repo: {repo["name"]} Number of commits: {len(commits)}')
 
 def get_repos(username):
     url = f'https://api.github.com/users/{username}/repos'
