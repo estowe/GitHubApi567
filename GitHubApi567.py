@@ -8,7 +8,7 @@ Tawnya Shannon
 """
 
 import requests
-
+ 
 def gitHub_parser(username):
     repos = get_repos(username)
     for repo in repos:
